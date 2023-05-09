@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h1 style="background-color:blue;text-align:center;font-size:20px"> Tweets Sentiment Analysis</h1>
+    <form action="/pre" method="POST">
+        <label for="text">Enter some text:</label><br>
+        <textarea id="text" name="text"></textarea><br>
+        <div>
+            class:<b>{{predict}}</b><br>
+        </div><br><br>
+        <input type="submit" value="Analyze">
+    </form>
+</body>
+</html>
